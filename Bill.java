@@ -12,7 +12,11 @@ public class Bill {
         System.out.println( "pen " + pen);
         System.out.println( "eraser " + eraser);
         
-         System.out.println( "total amt " + total);
+         System.out.println( "total amt " + total );
+
+         // 18% gst on total amt
+         float newTotal= total+ (0.18f*total);
+         System.out.println( "with gst " +newTotal);
     }
     
 }
