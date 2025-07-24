@@ -7,9 +7,13 @@ public class Ternary {
     //   System.out.println(type);
 
 
-        int larger = (5>6) ? 5:6;
-        System.out.println(larger);
+        // int larger = (5>6) ? 5:6;
+        // System.out.println(larger);
 
+        int marks = 44;
+        String result = marks >= 33? "pass" : "fail";
+
+        System.out.println(result);
 
     }
 }
